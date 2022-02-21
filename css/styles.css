@@ -29,7 +29,7 @@ ul {
 
 /* header  */
 .logo-studio-header {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -50,7 +50,7 @@ ul {
   text-decoration: none;
 }
 .logo-web {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -77,6 +77,19 @@ ul {
   color: var(--alt-text-color);
   background: var(--accent-color);
 }
+.menu:focus {
+  color: var(--accent-color);
+}
+.nav:focus {
+  color: var(--accent-color);
+}
+.button-filter:focus {
+  color: var(--alt-text-color);
+  background: var(--accent-color);
+}
+.menu-list .menu.current {
+  color: var(--accent-color);
+}
 /* button */
 button {
   cursor: pointer;
@@ -85,6 +98,7 @@ button {
   background: var(--secondary-bg-color);
 }
 .button-hat {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -111,9 +125,10 @@ button {
 .section-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .section-feature {
@@ -155,7 +170,7 @@ footer {
   background: var(--secondary-bg-color);
 }
 .logo-studio-footer {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -167,7 +182,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--alt-text-color);
   text-decoration: none;
@@ -180,4 +195,10 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.contact:hover {
+  color: var(--accent-color);
+}
+.contact:focus {
+  color: var(--accent-color);
 }
