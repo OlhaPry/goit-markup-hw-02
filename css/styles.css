@@ -131,6 +131,15 @@ button {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
+.section-title-studio {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
 .section-feature {
   font-style: normal;
   font-weight: normal;
